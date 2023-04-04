@@ -1,4 +1,7 @@
-# .
+# Progress:
+Tampilan Home, Login, Dashboard Admin(students) 
+*untuk page Dashboard belum di hide 
+*database masih belum ada yang connect
 
 This template should help get you started developing with Vue 3 in Vite.
 

@@ -4,22 +4,21 @@
 
 <h2 class="text-center p-2">Login Form</h2>
 
-<form method="post">
+<form method="POST" @submit.prevent="onLogin">
   <div class="imgcontainer">
     <img src="../assets/photo1679237533.jpeg" class="avatar">
   </div>
 
   <div class="container">
-    <label for="username"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username"  v-model="Admin.username" >
+    <label for="User" ><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" class="form-control" id="User" name="username" v-model="Admin.username" >
 
-    <label for="password"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password"  v-model="Admin.password" >
+    <label for="User"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" id="password" class="form-control" name="password" v-model="Admin.password" >
         
-    <button name="login" v-on:click="onLogin()">Login</button>
+    <button type="submit">Login</button>
   </div>
 </form>
-
 </body>
 
 </template>
@@ -36,12 +35,12 @@ export default {
       }
     }
   },
-  method:{
+  methods:{
     onLogin(){
       var data = new FormData();
       data.append('username',this.Admin.username);
       data.append('password',this.Admin.password);
-      axios.post("http://localhost/puber-vue/vue-crud/src/api/api.php?action=login",data)
+      axios.post("http://localhost/vue-crud-puber/puber-vue/puber-vue/src/api/api.php?action=login" , data)
       .then(res => {
           if (res.data.error) {
             console.log("Error", res.data);
@@ -49,10 +48,9 @@ export default {
           } else {
             console.log("Success", res.data.message);
             alert(res.data.message);
-            this.$router.push("/students");
+            this.$router.push("/dashboard");
           }
         })
-      alert("im working");
     }
   }
 }

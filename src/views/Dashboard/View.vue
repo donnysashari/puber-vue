@@ -35,67 +35,41 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">
                   <span data-feather="file" class="align-text-bottom"></span>
-                  Orders
+                  Area Sebaran
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
                   <span data-feather="shopping-cart" class="align-text-bottom"></span>
-                  Products
+                  Santri
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
                   <span data-feather="users" class="align-text-bottom"></span>
-                  Customers
+                  Dropspot
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
                   <span data-feather="bar-chart-2" class="align-text-bottom"></span>
-                  Reports
+                  Badan Keamanan & Ketertiban
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
                   <span data-feather="layers" class="align-text-bottom"></span>
-                  Integrations
+                  E-Bekal Santri
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span data-feather="layers" class="align-text-bottom"></span>
+                  Bendahara Pesantren
                 </a>
               </li>
             </ul>
 
-            <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-body-secondary text-uppercase">
-              <span>Saved reports</span>
-              <a class="link-secondary" href="#" aria-label="Add a new report">
-                <span data-feather="plus-circle" class="align-text-bottom"></span>
-              </a>
-            </h6>
-            <ul class="nav flex-column mb-2">
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <span data-feather="file-text" class="align-text-bottom"></span>
-                  Current month
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <span data-feather="file-text" class="align-text-bottom"></span>
-                  Last quarter
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <span data-feather="file-text" class="align-text-bottom"></span>
-                  Social engagement
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <span data-feather="file-text" class="align-text-bottom"></span>
-                  Year-end sale
-                </a>
-              </li>
-            </ul>
           </div>
         </nav>
 
@@ -119,11 +93,13 @@
             <table class="table table-striped table-sm">
               <thead>
                 <tr>
-                  <th scope="col">#</th>
-                  <th scope="col">Header</th>
-                  <th scope="col">Header</th>
-                  <th scope="col">Header</th>
-                  <th scope="col">Header</th>
+                  <th scope="col">No</th>
+                  <th scope="col">NIUP</th>
+                  <th scope="col">Nama</th>
+                  <th scope="col">Kabupaten</th>
+                  <th scope="col">Negara</th>
+                  <th scope="col">Negara</th>
+                  <th scope="col">Negara</th>
                 </tr>
               </thead>
               <tbody>

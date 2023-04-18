@@ -22,9 +22,6 @@ import HelloWorld from './components/HelloWorld.vue'
             <li class="nav-item">
               <RouterLink class="nav-link active" to="/login">Login</RouterLink>
             </li>
-            <li class="nav-item">
-              <RouterLink class="nav-link active" to="/students">Students</RouterLink>
-            </li>
           </ul>
         </div>
       </div>
